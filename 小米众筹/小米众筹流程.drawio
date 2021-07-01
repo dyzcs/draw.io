@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-07-01T03:45:37.936Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.114 Safari/537.36" etag="nyilD-brjopbamioqst_" version="14.8.3" type="github">
+<mxfile host="app.diagrams.net" modified="2021-07-01T03:50:32.628Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.114 Safari/537.36" etag="vYek-qameHxOwQZWM2Nc" version="14.8.3" type="github">
   <diagram id="FFSv7FXsVX47ao_6hwMR" name="第 1 页">
     <mxGraphModel dx="2249" dy="721" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -30,6 +30,9 @@
         <mxCell id="1ndnRHnWUaoT9KAR7s6x-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="1ndnRHnWUaoT9KAR7s6x-12" target="1ndnRHnWUaoT9KAR7s6x-15">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="1ndnRHnWUaoT9KAR7s6x-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontColor=#000000;" edge="1" parent="1" source="1ndnRHnWUaoT9KAR7s6x-12" target="1ndnRHnWUaoT9KAR7s6x-29">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="1ndnRHnWUaoT9KAR7s6x-12" value="&lt;pre style=&quot;background-color: #ffffff ; color: #080808 ; font-family: &amp;#34;courier 10 pitch&amp;#34; , monospace ; font-size: 11.3pt&quot;&gt;&lt;span style=&quot;color: #000000&quot;&gt;project_df&lt;/span&gt;.createOrReplaceTempView(&lt;span style=&quot;color: #067d17&quot;&gt;&quot;project_df&quot;&lt;/span&gt;)&lt;/pre&gt;" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;" vertex="1" parent="1">
           <mxGeometry x="-728.75" y="340" width="447.5" height="70" as="geometry" />
         </mxCell>
@@ -48,8 +51,26 @@
         <mxCell id="1ndnRHnWUaoT9KAR7s6x-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#000000;" edge="1" parent="1" source="1ndnRHnWUaoT9KAR7s6x-21" target="1ndnRHnWUaoT9KAR7s6x-18">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="1ndnRHnWUaoT9KAR7s6x-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontColor=#000000;" edge="1" parent="1" source="1ndnRHnWUaoT9KAR7s6x-21" target="1ndnRHnWUaoT9KAR7s6x-27">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="1ndnRHnWUaoT9KAR7s6x-21" value="&lt;div style=&quot;font-family: &amp;#34;droid sans mono&amp;#34; , monospace , monospace , &amp;#34;droid sans fallback&amp;#34; ; font-size: 14px ; line-height: 19px&quot;&gt;&lt;span&gt;union&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;font-family: &amp;#34;droid sans mono&amp;#34; , monospace , monospace , &amp;#34;droid sans fallback&amp;#34; ; font-size: 14px ; line-height: 19px&quot;&gt;&lt;pre style=&quot;background-color: #ffffff ; color: #080808 ; font-family: &amp;#34;noto mono&amp;#34; , monospace ; font-size: 11.3pt&quot;&gt;&lt;span style=&quot;color: #8c8c8c ; font-style: italic&quot;&gt;浏览众筹数据&lt;/span&gt;&lt;/pre&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;" vertex="1" parent="1">
           <mxGeometry x="-350" y="735" width="120" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="1ndnRHnWUaoT9KAR7s6x-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;fontColor=#000000;" edge="1" parent="1" source="1ndnRHnWUaoT9KAR7s6x-27" target="1ndnRHnWUaoT9KAR7s6x-29">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="1ndnRHnWUaoT9KAR7s6x-27" value="&lt;pre style=&quot;background-color: #ffffff ; color: #080808 ; font-family: &amp;#34;courier 10 pitch&amp;#34; , monospace ; font-size: 11.3pt&quot;&gt;&lt;span style=&quot;color: #067d17&quot;&gt;CACHE TABLE project_page_df&lt;/span&gt;&lt;/pre&gt;" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="-430" y="950" width="280" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="1ndnRHnWUaoT9KAR7s6x-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontColor=#000000;" edge="1" parent="1" source="1ndnRHnWUaoT9KAR7s6x-29" target="1ndnRHnWUaoT9KAR7s6x-32">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="1ndnRHnWUaoT9KAR7s6x-29" value="&lt;pre style=&quot;font-family: &amp;quot;courier 10 pitch&amp;quot;, monospace; font-size: 11.3pt;&quot;&gt;&lt;pre style=&quot;font-family: &amp;quot;courier 10 pitch&amp;quot; , monospace ; font-size: 11.3pt&quot;&gt;&lt;div style=&quot;text-align: justify&quot;&gt;&lt;span style=&quot;font-size: 11.3pt;&quot;&gt;project_page_df t1&lt;/span&gt;&lt;/div&gt;&lt;span style=&quot;&quot;&gt;&lt;div style=&quot;text-align: justify&quot;&gt;&lt;span style=&quot;font-size: 11.3pt&quot;&gt;inner join&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: justify&quot;&gt;&lt;span style=&quot;font-size: 11.3pt&quot;&gt;project_df t2&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: justify&quot;&gt;&lt;pre style=&quot;font-family: &amp;quot;courier 10 pitch&amp;quot;, monospace; font-size: 11.3pt;&quot;&gt;&lt;span style=&quot;&quot;&gt;on t1.project_id = t2.project_id&lt;/span&gt;&lt;span style=&quot;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;&quot;&gt;where&lt;/span&gt;&lt;span style=&quot;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;&quot;&gt;t1.date &amp;gt;= t2.start_date and t1.date &amp;lt;= t2.end_date&lt;/span&gt;&lt;span style=&quot;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;&quot;&gt;group by&lt;/span&gt;&lt;span style=&quot;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;&quot;&gt;t1.project_id&lt;/span&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/span&gt;&lt;/pre&gt;&lt;/pre&gt;" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;align=left;" vertex="1" parent="1">
+          <mxGeometry x="290" y="540" width="480" height="210" as="geometry" />
+        </mxCell>
+        <mxCell id="1ndnRHnWUaoT9KAR7s6x-32" value="&lt;pre style=&quot;background-color: #ffffff ; color: #080808 ; font-family: &amp;#34;courier 10 pitch&amp;#34; , monospace ; font-size: 11.3pt&quot;&gt;createOrReplaceTempView(&lt;span style=&quot;color: #067d17&quot;&gt;&quot;crow_page_t&quot;&lt;/span&gt;)&lt;/pre&gt;" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="920" y="617.5" width="370" height="55" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
